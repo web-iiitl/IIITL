@@ -1,0 +1,12 @@
+# Maintenance team should approve changes to deployment configurations
+/.github/* shishiro26
+Dockerfile shishiro26
+
+# Development team should approve changes to core logic and components
+/pages/* SaRTHaK0909k 
+/lib/*  SaRTHaK0909k 
+/components/* SaRTHaK0909k 
+/styles/* SaRTHaK0909k 
+
+# Fallback reviewer for all other2 files
+* SaRTHaK0909k shishiro26
