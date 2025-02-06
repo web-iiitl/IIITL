@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Ubuntu&display=swap");
+*{
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
+}
+

@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+
+}
+
+.sliderItem img{
+    width: 1200px;
+    height: 600px;
+    object-fit: cover;
+    margin:auto
+}

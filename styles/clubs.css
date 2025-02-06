@@ -1,0 +1,94 @@
+.clubCont{
+    padding: 30px;
+}
+
+.clubCardContTop{
+    display: flex;
+    width: 75vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clubCardTop{
+    height: 13vw;
+    flex: 1;
+    background-color: rgb(179, 178, 178);
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.clubCardContBetw{
+    display: flex;
+    width: 65vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clubCardBetw{
+    height: 8vw;
+    flex: 1;
+    background-color: rgb(179, 178, 178);
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.clubCardContBtm{
+    display: flex;
+    width: 37vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clubCardBtm{
+    height: 7vw;
+    flex: 1;
+    background-color: rgb(179, 178, 178);
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+
+/* Medium screens */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .clubCardContTop,
+    .clubCardContBetw,
+    .clubCardContBtm {
+        flex-wrap: wrap;
+    }
+
+    .clubCardContTop {
+        width: 90vw;
+    }
+
+    .clubCardContBetw {
+        width: 85vw;
+    }
+
+    .clubCardContBtm {
+        width: 55vw;
+    }
+
+    .clubCardTop,
+    .clubCardBetw,
+    .clubCardBtm {
+        height: 15vw;
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+}
+
+/* Small screens */
+@media screen and (max-width: 600px ) {
+    .clubCardContTop,.clubCardContBetw,.clubCardContBtm{
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .clubCardTop,.clubCardBetw,.clubCardBtm{
+        margin-left: 10px;
+        flex: none;
+        width: 70vw;
+        height: 60vw;
+        
+    }
+}

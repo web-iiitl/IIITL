@@ -1,0 +1,10 @@
+.carouselImage {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .carouselImage {
+      height: 300px; /* Adjust the height for mobile devices */
+    }
+  }

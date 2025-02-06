@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Ubuntu&display=swap");
+*{
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.peopleCont{
+    padding: 60px;
+  }
+  
+  .container{
+    display: flex;
+  }
+  
+  .circleCont{
+    display: flex;
+  }
+  .circle{
+    background-color: rgb(197, 193, 193);
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    margin-right: 50px;
+  }
+  .personCont{
+    padding: 10px 30px;
+    border-left: 5px solid rgb(169, 165, 165);
+    height: 300px;
+    margin-left: 50px;
+  }
+  .personCont>div>ul{
+    display: flex;
+  }
+  .personCont>div>ul>li{
+    margin-right: 30px;
+  }
+  
+  .contact{
+    width: 100vw;
+  }
+
+  @media screen and (min-width: 367px) and (max-width: 768px) {
+    .circle {
+      height: 17vw;
+      width: 17vw;
+    }
+    .personCont{
+      margin-left: 0;
+      padding: 0;
+    }
+  }
+  
+
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 517px) {
+
+    .peopleCont{
+      padding: 60px 20px;
+    }
+    .container {
+      flex-direction: column;
+    }
+  
+    .personCont {
+      margin-left: 0;
+    }
+    .circle{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-right: 50px;
+      margin-bottom: 30px;
+    }
+
+    .personCont{
+      padding: 0;
+      border-top: 5px solid rgb(169, 165, 165);
+      border-left: 0;
+      width: 300px;
+      margin-left: 0;
+    }
+
+  }
+  

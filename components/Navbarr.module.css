@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Ubuntu&display=swap");
+/* Navbarr.module.css */
+.active {
+    /* background-color: #3490dc; */
+    color: #fff;
+    border-bottom: 5px solid rgb(55 95 155 / var(--tw-bg-opacity));;
+    color: black; /* Add underline as you mentioned in your original code */
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .hover {
+    background-color: rgb(55 95 155 / var(--tw-bg-opacity));;
+    color: #fff;
+    text-decoration: underline; /* Add underline as you mentioned in your original code */
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  

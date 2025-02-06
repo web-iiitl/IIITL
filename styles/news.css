@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Ubuntu&display=swap");
+.News{
+    padding: 30px;
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.newCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0px;
+    /* height: 30vw; */
+}
+.leftBox{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}
+.rightBoxCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.newsBoxes{
+    flex: 1;
+    width: 400px;
+    background-color: grey;
+    margin-top: 15px;
+
+}
+
+@media screen  and (min-width: 800px) and (max-width: 1035px) {
+    .leftBox{
+        height: 250px;
+        width: 250px;
+    }
+    .rightBoxCont{
+        height: 250px;
+    }
+
+    .newsBoxes{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 800px) {
+    /* .newCont{
+        flex-direction: column;
+    }
+    .leftBox{
+        height: 30vw;
+        width: 30vw;
+    }
+    .rightBoxCont{
+        height: 30vw;
+    }
+
+    .newsBoxes{
+        width: 60vw;
+    } */
+
+    .newCont{
+        flex-direction: column;
+    }
+    .leftBox{
+        height: 210px;
+        width: 210px;
+    }
+    .rightBoxCont{
+        height: 210px;
+    }
+
+    .newsBoxes{
+        width: 270px;
+    }   
+
+}

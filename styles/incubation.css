@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Ubuntu&display=swap");
+*{
+    font-family: 'Exo 2', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.incCont{
+    padding: 40px 60px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftMain{
+    width: 400px;
+
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(200, 197, 197);
+}
+.btmBoxes{
+    margin-top:30px ;
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+.boxBtm{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(198, 197, 197);
+    margin-right: 60px;
+}
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    .boxBtm {
+      width: 20vw;
+      height: 20vw;
+    }
+  }
+
+  @media screen and (min-width: 500px) and (max-width: 650px) {
+    .box{
+        width: 40vw;
+        height: 35vw;
+    }
+
+    .boxBtm {
+      width: 20vw;
+      height: 20vw;
+    }
+  }
+
+  @media screen and (max-width: 556px) {
+    .incCont{
+        padding: 40px 30px;
+    }
+    .main {
+      flex-direction: column;
+    }
+    .leftMain {
+      width: 70vw;
+    }
+    .box {
+      width: 40vw;
+      height: 35vw;
+    }
+    .boxBtm {
+      width: 20vw;
+      height: 20vw;
+      margin-right: 30px;
+    }
+  }
+  
